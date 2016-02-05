@@ -25,8 +25,8 @@ var LibraryModel =  LibraryModel || (function(){
  //return books.filter(function(b){
  //return b.id == bookId && !b.checkedOut;
  //}).length > 0;
-
-  };
+ //};
+ 
   this.checkOutBook = function(bookId){
     var booksFiltered = books.filter(function(b){
       return b.id == bookId && !b.checkedOut;
